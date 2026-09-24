@@ -1,0 +1,4 @@
+Baseline CV accuracy on train (30 features): 0.9725
+Baseline held-out test accuracy (30 features): 0.9357
+GA held-out test accuracy (8 features): 0.9474
+Selected features: mean radius, mean area, radius error, smoothness error, compactness error, worst texture, worst area, worst concave points

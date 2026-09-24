@@ -1,0 +1,13 @@
+Multi-seed robustness results
+========================================
+Baseline held-out test accuracy (30 features): 0.9357
+
+seed=1: features=10, test_acc=0.9415
+seed=7: features=8, test_acc=0.9532
+seed=21: features=13, test_acc=0.9532
+seed=55: features=8, test_acc=0.9474
+seed=99: features=8, test_acc=0.9415
+
+Mean test accuracy: 0.9474 (std 0.0052)
+Mean features used: 9.4 (std 2.0)
+Seeds where GA >= baseline: 5/5
