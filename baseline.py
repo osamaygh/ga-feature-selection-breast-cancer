@@ -16,5 +16,6 @@ X_train, X_test, y_train, y_test = train_test_split(
 clf = RandomForestClassifier(n_estimators=100, random_state=42)
 clf.fit(X_train, y_train)
 
+
 baseline_accuracy = accuracy_score(y_test, clf.predict(X_test))
 print(f"\nBaseline accuracy (all 30 features): {baseline_accuracy:.4f}")
